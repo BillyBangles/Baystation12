@@ -315,6 +315,8 @@
 			return global.captain_announcement;
 		if("cardinal")
 			return global.cardinal;
+		if("cardinalz")
+			return global.cardinalz;
 		if("cargo_positions")
 			return global.cargo_positions;
 		if("cargo_supply_pack_root")
@@ -383,6 +385,8 @@
 			return global.controller_iteration;
 		if("cornerdirs")
 			return global.cornerdirs;
+		if("cornerdirsz")
+			return global.cornerdirsz;
 		if("create_mob_html")
 			return global.create_mob_html;
 		if("create_object_html")
@@ -653,8 +657,6 @@
 			return global.hazard_overlays;
 		if("hidden_skill_types")
 			return global.hidden_skill_types;
-		if("highlanders")
-			return global.highlanders;
 		if("hiss_sound")
 			return global.hiss_sound;
 		if("hit_appends")
@@ -1457,7 +1459,7 @@
 			return global.z_state;
 		if("zone_blocked")
 			return global.zone_blocked;
-		
+
 /proc/writeglobal(which, newval)
 	switch(which)
 		if("ALL_ANTIGENS")
@@ -1774,6 +1776,8 @@
 			global.captain_announcement=newval;
 		if("cardinal")
 			global.cardinal=newval;
+		if("cardinalz")
+			global.cardinalz=newval;
 		if("cargo_positions")
 			global.cargo_positions=newval;
 		if("cargo_supply_pack_root")
@@ -1842,6 +1846,8 @@
 			global.controller_iteration=newval;
 		if("cornerdirs")
 			global.cornerdirs=newval;
+		if("cornerdirsz")
+			global.cornerdirsz=newval;
 		if("create_mob_html")
 			global.create_mob_html=newval;
 		if("create_object_html")
@@ -2112,8 +2118,6 @@
 			global.hazard_overlays=newval;
 		if("hidden_skill_types")
 			global.hidden_skill_types=newval;
-		if("highlanders")
-			global.highlanders=newval;
 		if("hiss_sound")
 			global.hiss_sound=newval;
 		if("hit_appends")
@@ -2916,7 +2920,7 @@
 			global.z_state=newval;
 		if("zone_blocked")
 			global.zone_blocked=newval;
-		
+
 /var/list/_all_globals=list(
 	"ALL_ANTIGENS",
 	"ANTAG_FREQS",
@@ -3075,6 +3079,7 @@
 	"can_call_ert",
 	"captain_announcement",
 	"cardinal",
+	"cardinalz",
 	"cargo_positions",
 	"cargo_supply_pack_root",
 	"cargo_supply_packs",
@@ -3109,6 +3114,7 @@
 	"contamination_overlay",
 	"controller_iteration",
 	"cornerdirs",
+	"cornerdirsz",
 	"create_mob_html",
 	"create_object_html",
 	"create_turf_html",
